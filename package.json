@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ChrisCodeX/Notes-TypeScript-Advanced-Types/issues"
   },
-  "homepage": "https://github.com/ChrisCodeX/Notes-TypeScript-Advanced-Types#readme"
+  "homepage": "https://github.com/ChrisCodeX/Notes-TypeScript-Advanced-Types#readme",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
 }
