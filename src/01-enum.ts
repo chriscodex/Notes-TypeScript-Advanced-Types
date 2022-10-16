@@ -9,3 +9,8 @@ type User = {
     username: string;
     role: ROLES;
 }
+
+const christUser : User = {
+    username: 'chriscodex',
+    role: ROLES.ADMIN
+}
