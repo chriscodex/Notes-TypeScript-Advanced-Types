@@ -1,6 +1,6 @@
 // Enum goes with capital letter
 enum ROLES {
     ADMIN = 'admin',
-    SELLER = 'user',
+    SELLER = 'seller',
     COSTUMER = 'costumer'
 }
