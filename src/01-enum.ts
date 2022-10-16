@@ -7,4 +7,5 @@ enum ROLES {
 
 type User = {
     username: string;
+    role: ROLES;
 }
