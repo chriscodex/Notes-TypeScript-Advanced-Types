@@ -4,3 +4,7 @@ enum ROLES {
     SELLER = 'seller',
     COSTUMER = 'costumer'
 }
+
+type User = {
+    username: string;
+}
