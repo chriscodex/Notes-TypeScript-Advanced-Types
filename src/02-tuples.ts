@@ -12,6 +12,7 @@ user = ['christian', 1, true];
 // user = ['christ',2, true, 2]
 
 /* Destructuración de una tupla */
+// Asignación de variables
 const [username, age] = user;
 console.log(username);
 console.log(age);
