@@ -5,3 +5,8 @@ anyVar = true;
 anyVar = null;
 anyVar = [];
 anyVar = {};
+
+let isNew : boolean = anyVar;
+
+anyVar.doSomething();
+anyVar.asdf();
