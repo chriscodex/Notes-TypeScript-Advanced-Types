@@ -13,4 +13,10 @@ anyVar.doSomething();
 anyVar.asdf();
 
 // Unknown Type
-
+let unknownVar : unknown;
+unknownVar = true;
+unknownVar = 1;
+unknownVar = 'hello';
+unknownVar = null;
+unknownVar = [];
+unknownVar = {};
