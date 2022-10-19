@@ -7,10 +7,11 @@ anyVar = null;
 anyVar = [];
 anyVar = {};
 
-let isNew : boolean = anyVar;
+/* It is possible to invoke inexistent functions */
+// let isNew : boolean = anyVar;
 
-anyVar.doSomething();
-anyVar.asdf();
+// anyVar.doSomething();
+// anyVar.asdf();
 
 // Unknown Type
 let unknownVar : unknown;
@@ -20,3 +21,9 @@ unknownVar = 'hello';
 unknownVar = null;
 unknownVar = [];
 unknownVar = {};
+
+// Unknown type needs to verify the type
+unknownVar = 'Hello friends'
+if (typeof unknownVar === 'string') {
+    console.log(unknownVar.toLowerCase());
+}
