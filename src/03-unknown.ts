@@ -1,3 +1,4 @@
+// Any Type
 let anyVar: any;
 anyVar = 1;
 anyVar = 'str';
@@ -10,3 +11,5 @@ let isNew : boolean = anyVar;
 
 anyVar.doSomething();
 anyVar.asdf();
+
+//
