@@ -29,4 +29,5 @@ if (typeof unknownVar === 'string') {
 }
 
 const parse = (str: string) => {
+    return JSON.parse(str);
 }
