@@ -27,3 +27,6 @@ unknownVar = 'Hello friends'
 if (typeof unknownVar === 'string') {
     console.log(unknownVar.toLowerCase());
 }
+
+const parse = (str: string) => {
+}
