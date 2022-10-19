@@ -12,4 +12,5 @@ let isNew : boolean = anyVar;
 anyVar.doSomething();
 anyVar.asdf();
 
-//
+// Unknown Type
+
