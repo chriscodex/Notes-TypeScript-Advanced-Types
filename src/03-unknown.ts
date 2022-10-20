@@ -31,3 +31,7 @@ if (typeof unknownVar === 'string') {
 const parse = (str: string) => {
     return JSON.parse(str);
 }
+
+// If i dont know what will be returned
+// Not recomendable but if i want to use any, i should prefer to user unknows
+
