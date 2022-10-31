@@ -8,8 +8,11 @@ const fail = (message: string) => {
     throw new Error(message);
 }
 
+// Check if a type is an array
 const example = (input: unknown) => {
     if (input === 'string') {
         return 'It is a string'
+    } else if (Array.isArray(input)) {
+
     }
 }
