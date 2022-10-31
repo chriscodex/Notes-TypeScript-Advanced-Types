@@ -13,6 +13,7 @@ const example = (input: unknown) => {
     if (input === 'string') {
         return 'It is a string'
     } else if (Array.isArray(input)) {
-
+        return 'It is an array'
     }
+    fail('Not match');
 }
