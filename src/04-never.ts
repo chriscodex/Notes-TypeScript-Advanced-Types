@@ -4,21 +4,22 @@ const withoudEnd = () => {
     }
 }
 
+// Throw an error
 const fail = (message: string) => {
     throw new Error(message);
 }
 
 // Check if a type is an array
 const example = (input: unknown) => {
-    if (input === 'string') {
+    if (typeof input === 'string') {
         return 'It is a string'
     } else if (Array.isArray(input)) {
         return 'It is an array'
     }
-    fail('Not match');
+    return fail('not match');
 }
 
-example('hello');
-example([1,2,3]);
-example(4);
-example('hello again');
+console.log(example('hello'))
+console.log(example([1,2,3]));
+console.log(example(4));
+console.log(example('hello again'));
