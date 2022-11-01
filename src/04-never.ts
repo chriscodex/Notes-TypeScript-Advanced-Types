@@ -17,3 +17,5 @@ const example = (input: unknown) => {
     }
     fail('Not match');
 }
+
+example('hello');
