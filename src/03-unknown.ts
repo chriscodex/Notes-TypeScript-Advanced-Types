@@ -29,7 +29,9 @@ if (typeof unknownVar === 'string') {
 }
 
 // For assignament the unknown variable needs to be verified
-
+if (typeof unknownVar === 'string') {
+    let isNewV2 = unknownVar;
+}
 
 const parse = (str: string) => {
     return JSON.parse(str);
