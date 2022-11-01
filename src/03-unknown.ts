@@ -28,7 +28,7 @@ if (typeof unknownVar === 'string') {
     console.log(unknownVar.toLowerCase());
 }
 
-// For assignament
+// For assignament the unknown variable needs to be verified
 
 
 const parse = (str: string) => {
