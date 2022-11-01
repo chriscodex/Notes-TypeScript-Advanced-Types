@@ -35,3 +35,6 @@ const parse = (str: string) => {
 // If i dont know what will be returned
 // Not recomendable but if i want to use any, i should prefer to user unknows
 
+const parseV2 = (str: string): unknown => {
+    return JSON.parse(str);
+}
