@@ -20,3 +20,4 @@ const example = (input: unknown) => {
 
 example('hello');
 example([1,2,3]);
+example(4);
