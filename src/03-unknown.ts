@@ -28,6 +28,9 @@ if (typeof unknownVar === 'string') {
     console.log(unknownVar.toLowerCase());
 }
 
+// For assignament
+
+
 const parse = (str: string) => {
     return JSON.parse(str);
 }
