@@ -1,7 +1,7 @@
 export const createProduct = (
     id: string | number,
+    isNew: boolean,
     stock: number,
-    isNew: boolean
 ) => {
     return {
         id,
