@@ -24,3 +24,7 @@ export const createProduct = (
     }
 }
  */
+
+const p1 = createProduct(1,true);
+console.log(p1);
+// Output { id: 1, stock: undefined, isNew: true }
