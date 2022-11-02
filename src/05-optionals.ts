@@ -1,12 +1,12 @@
 export const createProduct = (
     id: string | number,
-    isNew: boolean,
+    isNew?: boolean,
     stock?: number,
 ) => {
     return {
         id,
-        stock,
-        isNew
+        stock: stock ?? 0,
+        isNew: isNew ?? true
     }
 }
 
