@@ -42,3 +42,6 @@ const createProductV2 = (
         isNew
     }
 }
+
+const p3 = createProductV2(3);
+console.log(p3);
