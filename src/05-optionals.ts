@@ -30,3 +30,15 @@ console.log(p1);
 
 const p2 = createProduct(2);
 console.log(p2);
+
+const createProductV2 = (
+    id: number | string,
+    stock: number = 0,
+    isNew: boolean = true
+) => {
+    return {
+        id,
+        stock,
+        isNew
+    }
+}
