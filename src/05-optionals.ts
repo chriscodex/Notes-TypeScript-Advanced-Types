@@ -30,4 +30,3 @@ console.log(p1);
 
 const p2 = createProduct(2);
 console.log(p2);
-// Output { id: 1, stock: undefined, isNew: true }
