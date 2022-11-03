@@ -5,3 +5,11 @@ const currentUser: User = {
     role: ROLES.COSTUMER
 }
 
+// This function can receive multiple
+export const checkRoles = (...roles: string[]) => {
+    if (roles.includes(currentUser.role)) {
+        return true;
+    }
+    return false
+}
+
