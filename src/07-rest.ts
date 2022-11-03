@@ -13,3 +13,4 @@ export const checkRoles = (...roles: string[]) => {
     return false
 }
 
+console.log(checkRoles(ROLES.ADMIN, ROLES.SELLER, ROLES.COSTUMER));
