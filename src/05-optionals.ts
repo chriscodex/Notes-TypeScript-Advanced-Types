@@ -4,7 +4,7 @@ export const createProduct = (
     stock?: number,
 ) => {
     return {
-        // To avoid error we use nullish-loalescing (??) instead of ||
+        // To avoid error we use nullish-coalescing (??) instead of (||)
         id,
         stock: stock ?? 0,
         isNew: isNew ?? true
