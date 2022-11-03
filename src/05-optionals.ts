@@ -1,3 +1,4 @@
+// Javscript mode
 export const createProduct = (
     id: string | number,
     isNew?: boolean,
@@ -16,23 +17,6 @@ console.log(p1);
 
 const p2 = createProduct(2);
 console.log(p2);
-
-const createProductV2 = (
-    id: number | string,
-    stock: number = 0,
-    isNew: boolean = true
-) => {
-    return {
-        id,
-        stock,
-        isNew
-    }
-}
-
-const p3 = createProductV2(3);
-console.log(p3);
-
-
 /* Optinals parameters always are the last parameter
 This example is not possible
 export const createProduct = (
