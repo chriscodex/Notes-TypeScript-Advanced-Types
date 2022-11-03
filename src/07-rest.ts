@@ -4,3 +4,4 @@ const currentUser: User = {
     username: 'chriscodex',
     role: ROLES.COSTUMER
 }
+
