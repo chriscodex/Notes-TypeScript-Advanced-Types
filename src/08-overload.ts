@@ -19,7 +19,7 @@ const rta2 = parseStr(['c','h','r','i','s']);
 console.log(rta2);
 
 // Other way using type
-function parseStrV2(input: string | string[]) : unknown {
+function parseStrV2(input: customType) : customType {
     if (typeof input === 'string') {
         return input.split('')
     }
