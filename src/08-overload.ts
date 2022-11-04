@@ -31,3 +31,11 @@ console.log(rta3);
 const rta4 = parseStrV2(['c','h','r','i','s']);
 console.log(rta4);
 
+/* Advices
+- Si en una sobrecarga se tiene el unknown, colocarlo al final
+- Exmpl:
+function fn(n: string): number
+function fn(n: boolean): string
+function fn(n: unknown): unknown
+ */
+
