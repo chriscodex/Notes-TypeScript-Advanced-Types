@@ -8,7 +8,7 @@ function parseStr(input: unknown) : unknown {
     if (typeof input === 'string') {
         return input.split('')
     } else if (Array.isArray(input)){
-        input.join('')
+        return input.join('')
     }
 }
 
@@ -25,4 +25,9 @@ function parseStrV2(input: customType) : customType {
     }
     return input.join('')
 }
+const rta3 = parseStrV2('christ');
+console.log(rta3);
+
+const rta4 = parseStrV2(['c','h','r','i','s']);
+console.log(rta4);
 
