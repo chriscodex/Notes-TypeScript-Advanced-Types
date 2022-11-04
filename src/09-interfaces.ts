@@ -1,12 +1,23 @@
 type Sizes = 'S' | 'M' | 'L' | 'XL'
 
-type Product = {
-    id: string | number
+type userId = string | number
+
+interface Product {
+    id: userId
     title: string
     createdAt: Date
     stock: number
     size: Sizes
 }
+
+/* Using type */
+// type Product = {
+//     id: UserId
+//     title: string
+//     createdAt: Date
+//     stock: number
+//     size: Sizes
+// }
 
 let products: Product[] = []
 
