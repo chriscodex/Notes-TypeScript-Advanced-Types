@@ -5,7 +5,11 @@ const p1: Product = {
     title: 'p1',
     createdAt: new Date(),
     stock: 4,
-    size: 'S'
+    size: 'S',
+    category: {
+        id: '1',
+        name: 'clothes'
+    }
 }
 
 console.log(p1)
