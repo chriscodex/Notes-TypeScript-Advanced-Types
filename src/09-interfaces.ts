@@ -1,9 +1,7 @@
 type Sizes = 'S' | 'M' | 'L' | 'XL'
 
-type userId = string | number
-
 interface Product {
-    id: userId
+    id: string | number
     title: string
     createdAt: Date
     stock: number
