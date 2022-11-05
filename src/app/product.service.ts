@@ -1,7 +1,7 @@
-import { Product, Sizes } from './product.model'
+import { Product} from './product.model'
 
-const product: Product[] = []
+export const product: Product[] = []
 
-const addProduct = (data: Product) => {
+export const addProduct = (data: Product) => {
     product.push(data)
 }
