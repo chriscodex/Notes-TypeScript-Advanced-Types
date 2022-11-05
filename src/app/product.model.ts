@@ -1,7 +1,7 @@
 export type Sizes = 'S' | 'M' | 'L' | 'XL'
 
 export interface Product {
-    id: userId
+    id: string | number
     title: string
     createdAt: Date
     stock: number
