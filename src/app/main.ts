@@ -8,6 +8,8 @@ const p1: Product = {
     size: 'S',
     category: {
         id: '1',
+        createdAt: new Date(),
+        updatedAt: new Date(),
         name: 'clothes'
     }
 }
