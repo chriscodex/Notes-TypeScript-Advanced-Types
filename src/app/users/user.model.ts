@@ -1,3 +1,5 @@
+import { BaseModel } from "../base.model"
+
 export enum ROLES {
     ADMIN = 'admin',
     SELLER = 'seller',
