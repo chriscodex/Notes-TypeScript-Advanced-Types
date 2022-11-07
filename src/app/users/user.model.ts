@@ -6,7 +6,7 @@ export enum ROLES {
     CUSTOMER = 'customer'
 }
 
-export interface User {
+export interface User extends BaseModel{
     username: string
     role: ROLES
 }
