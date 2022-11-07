@@ -4,6 +4,7 @@ const p1: Product = {
     id: '1',
     title: 'p1',
     createdAt: new Date(),
+    updatedAt: new Date(),
     stock: 4,
     size: 'S',
     category: {
