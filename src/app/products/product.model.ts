@@ -7,4 +7,5 @@ export interface Product extends BaseModel{
     title: string
     image: string
     description: string
+    stock: number
 }
