@@ -6,4 +6,5 @@ export type Sizes = 'S' | 'M' | 'L' | 'XL'
 export interface Product extends BaseModel{
     title: string
     image: string
+    description: string
 }
