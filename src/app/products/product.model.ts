@@ -13,4 +13,5 @@ export interface Product extends BaseModel{
     price: number
     category: Category
     isNew: boolean
+    tags: string[]
 }
