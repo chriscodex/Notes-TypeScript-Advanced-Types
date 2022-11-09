@@ -3,7 +3,7 @@ import {Product} from './products/product.model'
 
 const p1: Product = {
     id: faker.datatype.uuid(),
-    title: 'p1',
+    title: faker.commerce.productName(),
     createdAt: new Date(),
     updatedAt: new Date(),
     stock: 4,
