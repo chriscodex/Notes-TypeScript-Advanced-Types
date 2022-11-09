@@ -1,3 +1,4 @@
+import faker from '@faker-js/faker'
 import { Product} from './products/product.model'
 
 const p1: Product = {
