@@ -9,4 +9,5 @@ export interface Product extends BaseModel{
     description: string
     stock: number
     size?: Sizes
+    color: string
 }
