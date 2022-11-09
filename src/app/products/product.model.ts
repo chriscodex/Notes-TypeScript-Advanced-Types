@@ -12,4 +12,5 @@ export interface Product extends BaseModel{
     color: string
     price: number
     category: Category
+    isNew: boolean
 }
