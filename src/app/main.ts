@@ -1,8 +1,8 @@
-import faker from '@faker-js/faker'
-import { Product} from './products/product.model'
+import {faker} from '@faker-js/faker'
+import {Product} from './products/product.model'
 
 const p1: Product = {
-    id: '1',
+    id: faker.datatype.uuid(),
     title: 'p1',
     createdAt: new Date(),
     updatedAt: new Date(),
