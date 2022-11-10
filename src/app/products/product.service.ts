@@ -1,4 +1,5 @@
 import { Product} from './product.model'
+import { CreateProductDto } from './product.dto'
 
 export const product: Product[] = []
 
