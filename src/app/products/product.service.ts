@@ -7,9 +7,17 @@ export const product: Product[] = []
 export const addProduct = (data: CreateProductDto) => {
     const newProduct = {
         ...data,
-        id:
+        id: faker.datatype.uuid(),
+        createdAt: faker.date.recent(),
+        updatedAt: faker.date.recent(),
+        category: {
+            id: data.categoryId,
+            name: faker.commerce.department(),
+            createdAt: faker.date.recent(),
+            updatedAt: faker.date.recent(),
+        }
     }
-    product.push(data)
+    product.push(newProduct)
 }
 
 export const updateProduct = (id: string, changes: Product) => {
