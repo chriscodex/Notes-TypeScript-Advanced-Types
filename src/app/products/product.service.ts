@@ -3,7 +3,7 @@ import { CreateProductDto } from './product.dto'
 
 export const product: Product[] = []
 
-export const addProduct = (data: Product) => {
+export const addProduct = (data: CreateProductDto) => {
     product.push(data)
 }
 
