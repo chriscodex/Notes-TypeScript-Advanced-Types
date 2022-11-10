@@ -21,3 +21,5 @@ addProduct({
         name: faker.commerce.productName()
     }
 })
+
+console.log(product)
