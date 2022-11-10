@@ -11,7 +11,7 @@ addProduct({
     tags: faker.helpers.arrayElement(),
     title: faker.commerce.productName(),
     createdAt: faker.date.recent(),
-    updatedAt: faker.date.recent()
+    updatedAt: faker.date.recent(),
     stock: faker.datatype.number({min: 10, max: 100}),
     size: 'S',
     category: {
