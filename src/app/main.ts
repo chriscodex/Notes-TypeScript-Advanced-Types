@@ -1,5 +1,5 @@
 import { faker } from '@faker-js/faker'
-import { addProduct } from './products/product.service'
+import { addProduct, product } from './products/product.service'
 
 addProduct({
     id: faker.datatype.uuid(),
