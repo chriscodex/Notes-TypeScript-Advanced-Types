@@ -4,7 +4,7 @@ import { CreateProductDto } from './product.dto'
 
 export const product: Product[] = []
 
-export const addProduct = (data: CreateProductDto) => {
+export const addProduct = (data: CreateProductDto):Product => {
     const newProduct = {
         ...data,
         id: faker.datatype.uuid(),
@@ -18,6 +18,7 @@ export const addProduct = (data: CreateProductDto) => {
         }
     }
     product.push(newProduct)
+    return newProduct
 }
 
 export const updateProduct = (id: string, changes: Product) => {
