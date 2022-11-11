@@ -13,3 +13,5 @@ const ppp: Person123 = {
     name: 'Christian',
     lastName: 'Espinoza',
 }
+
+console.log(ppp);
