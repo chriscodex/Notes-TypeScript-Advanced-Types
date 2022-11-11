@@ -17,3 +17,4 @@ const ppp: Person123 = {
 console.log(ppp);
 
 // Utility type Pick
+// Permite elegir propiedades de las interfaces
