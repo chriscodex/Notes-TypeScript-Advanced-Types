@@ -19,3 +19,8 @@ console.log(ppp);
 // Utility type Pick
 // Permite elegir propiedades de las interfaces
 type Person321 = Pick<EmployeeInterface,'name' | 'age'>
+
+const ppp2: Person321 = {
+    name: 'Leonardo',
+    age: 19
+}
