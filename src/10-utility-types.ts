@@ -6,3 +6,4 @@ interface EmployeeInterface {
 }
 
 // Utility type Omit
+// Permite omitir propiedades a las interfaces
