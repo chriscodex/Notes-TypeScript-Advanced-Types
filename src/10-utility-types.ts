@@ -4,3 +4,5 @@ interface EmployeeInterface {
     age: number,
     company: string
 }
+
+// Utility type Omit
