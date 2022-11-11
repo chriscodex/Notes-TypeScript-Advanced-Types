@@ -24,3 +24,5 @@ const ppp2: Person321 = {
     name: 'Leonardo',
     age: 19
 }
+
+console.log(ppp2);
