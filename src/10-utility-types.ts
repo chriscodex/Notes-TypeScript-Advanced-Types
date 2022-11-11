@@ -15,3 +15,5 @@ const ppp: Person123 = {
 }
 
 console.log(ppp);
+
+// Utility type Pick
