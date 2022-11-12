@@ -21,6 +21,6 @@ export const addProduct = (data: CreateProductDto):Product => {
     return newProduct
 }
 
-export const updateProduct = (id: string, changes: Product) => {
+export const updateProduct = (id: string, changes: Product): Product => {
     //code
 }
