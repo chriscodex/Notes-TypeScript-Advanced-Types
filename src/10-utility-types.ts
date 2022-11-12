@@ -26,3 +26,7 @@ const ppp2: Person321 = {
 }
 
 console.log(ppp2);
+
+
+// Utility type Partial
+// Coloca como opcionales todas las propiedades de una interface
