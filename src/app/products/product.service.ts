@@ -2,7 +2,7 @@ import { faker } from '@faker-js/faker'
 import { Product} from './product.model'
 import { CreateProductDto } from './product.dto'
 
-export const product: Product[] = []
+export const products: Product[] = []
 
 export const addProduct = (data: CreateProductDto):Product => {
     const newProduct = {
@@ -17,7 +17,7 @@ export const addProduct = (data: CreateProductDto):Product => {
             updatedAt: faker.date.recent(),
         }
     }
-    product.push(newProduct)
+    products.push(newProduct)
     return newProduct
 }
 
