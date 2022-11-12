@@ -24,4 +24,10 @@ export const addProduct = (data: CreateProductDto):Product => {
 export const updateProduct = (id: string, changes: UpdateProductDto): Product => {
     const index = products.findIndex(item => item.id === id)
     const prevData = products[index]
+
+    // Update
+    products[index] = {
+        ...prevData,
+        ...changes
+    }
 }
