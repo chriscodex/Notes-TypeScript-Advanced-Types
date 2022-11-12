@@ -30,4 +30,5 @@ export const updateProduct = (id: string, changes: UpdateProductDto): Product =>
         ...prevData,
         ...changes
     }
+    return products[index]
 }
