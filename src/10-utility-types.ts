@@ -5,7 +5,7 @@ interface EmployeeInterface {
     company: string
 }
 
-// Utility type Omit
+// Omit
 // Permite omitir propiedades a las interfaces
 type Person123 = Omit<EmployeeInterface,'company' | 'age'>
 
