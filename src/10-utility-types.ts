@@ -28,7 +28,7 @@ const ppp2: Person321 = {
 console.log(ppp2);
 
 
-//Partial
+// Partial
 // Coloca como opcionales todas las propiedades de una interface
 type newPerson1 = Partial<EmployeeInterface>
 
