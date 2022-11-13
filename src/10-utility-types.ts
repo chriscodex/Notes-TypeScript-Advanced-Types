@@ -39,3 +39,5 @@ type newPerson2 = Required<newPerson1>
 // Read only
 // Coloca como 'solo lectura' a los propiedades de un tipo o interface
 type newPerson3 = Readonly<EmployeeInterface>
+
+// Anidar utility types
