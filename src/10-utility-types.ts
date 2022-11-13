@@ -32,6 +32,8 @@ console.log(ppp2);
 // Coloca como opcionales todas las propiedades de una interface
 type newPerson1 = Partial<EmployeeInterface>
 
-// Utility type Required
+//Required
 // Coloca como obligatorios todas las propiedades de un tipo o interface
 type newPerson2 = Required<newPerson1>
+
+//
