@@ -36,4 +36,4 @@ type newPerson1 = Partial<EmployeeInterface>
 // Coloca como obligatorios todas las propiedades de un tipo o interface
 type newPerson2 = Required<newPerson1>
 
-//
+// Read only
