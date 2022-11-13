@@ -37,3 +37,4 @@ type newPerson1 = Partial<EmployeeInterface>
 type newPerson2 = Required<newPerson1>
 
 // Read only
+// Coloca como 'solo lectura' a los propiedades de un tipo o interface
