@@ -42,3 +42,4 @@ type newPerson3 = Readonly<EmployeeInterface>
 
 // Anidar utility types
 // Ejemplo: Las propiedades de la interfaz employee son opcionales y de solo lectura
+type newPerson4 = Readonly<Partial<EmployeeInterface>>
