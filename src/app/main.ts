@@ -24,3 +24,7 @@ updateProduct(product.id, {
     title: 'New Title',
     stock: 80
 })
+
+findProducts({
+
+})
