@@ -1,6 +1,6 @@
 import { faker } from '@faker-js/faker'
 import { Product} from './product.model'
-import { CreateProductDto, UpdateProductDto } from './product.dto'
+import { CreateProductDto, UpdateProductDto, FindProduct } from './product.dto'
 
 export const products: Product[] = []
 
