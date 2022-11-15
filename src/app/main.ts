@@ -27,5 +27,6 @@ updateProduct(product.id, {
 
 findProducts({
     stock: 10,
-    color: 'red'
+    color: 'red',
+    tags: ['tag1', 'tag2']
 })
