@@ -4,6 +4,7 @@ interface PersonExample {
     age: number
 }
 
+// index of PersonExample interface used as type
 const foo1 = (n1: Person['name']) => {
     console.log(typeof n1);
 }
