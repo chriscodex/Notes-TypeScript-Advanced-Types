@@ -8,6 +8,7 @@ export interface UpdateProductDto extends Partial<CreateProductDto> {
 
 }
 
-export interface FindProduct extends Readonly<Partial<Product>> {
+// Readonly case
+export interface FindProduct extends Readonly<Partial<Omit<Product, 'tags'>>> {
 
 }
