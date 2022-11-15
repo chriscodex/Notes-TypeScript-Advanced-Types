@@ -7,3 +7,5 @@ interface PersonExample {
 const foo1 = (n1: Person['name']) => {
     console.log(typeof n1);
 }
+
+foo1('Christian');
