@@ -33,6 +33,7 @@ export const updateProduct = (id: string, changes: UpdateProductDto): Product =>
     return products[index]
 }
 
+// Readonly Case
 export const findProducts = (dto: FindProduct) : Product[] => {
     // Code
     return products
