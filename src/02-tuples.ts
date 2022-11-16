@@ -11,6 +11,8 @@ user = ['christian', 1, true];
 // user = ['christ'];
 // user = ['christ',2, true, 2]
 
+const user2: [string] = ['hi']
+
 /* Destructuración de una tupla */
 // Asignación de variables
 const [username, age] = user;
